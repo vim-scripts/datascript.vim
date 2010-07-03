@@ -43,25 +43,26 @@ syn region   dsCommentL     start="//" skip="\\$" end="$" keepend contains=@dsCo
 syn region   dsComment      matchgroup=dsCommentStart start="/\*" end="\*/" contains=@dsCommentGroup,dsCommentStartError,@Spell extend
 
 " Define the default highlighting.
-hi def link dsType          Type
-hi def link dsStorageClass  StorageClass
-hi def link dsSql           PreProc
-hi def link dsKeyword       Statement
-hi def link dsString        String
-hi def link dsNumber        Number
-hi def link dsNumberBin     Number
-hi def link dsBinaryB       Special
-hi def link dsOctal         Number
-hi def link dsOctalZero     Special
-hi def link dsOctalError    Error
-hi def link dsNumberHex     Number
-hi def link dsTodo          Todo
-hi def link dsOperator      Operator
-hi def link dsInclude       Include
-hi def link dsCommentError  Error
-hi def link dsCommentStart  dsComment
-hi def link dsCommentL      dsComment
-hi def link cCommentL       dsComment
-hi def link dsComment       Comment
+hi def link dsType              Type
+hi def link dsStorageClass      StorageClass
+hi def link dsSql               PreProc
+hi def link dsKeyword           Statement
+hi def link dsString            String
+hi def link dsNumber            Number
+hi def link dsNumberBin         Number
+hi def link dsBinaryB           Special
+hi def link dsOctal             Number
+hi def link dsOctalZero         Special
+hi def link dsOctalError        Error
+hi def link dsNumberHex         Number
+hi def link dsTodo              Todo
+hi def link dsOperator          Operator
+hi def link dsInclude           Include
+hi def link dsCommentError      Error
+hi def link dsCommentStartError Error
+hi def link dsCommentStart      dsComment
+hi def link dsCommentL          dsComment
+hi def link cCommentL           dsComment
+hi def link dsComment           Comment
 
 let b:current_syntax = "datascript"
