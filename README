@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3138
+
+Syntax file for the Datascript modelling binary datatypes language.
+
+Screenshot of syntax highlighted datascript file with doxygen comments:
+  http://dominique.pelle.free.fr/pic/datascript-syntax.png
+
+For more information about Datascript language, see:
+  http://datascript.berlios.de/ 
